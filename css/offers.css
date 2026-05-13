@@ -1,0 +1,32 @@
+.cards {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+.cards header {
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.cards header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.cards header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+.cards header span {
+  display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+}
