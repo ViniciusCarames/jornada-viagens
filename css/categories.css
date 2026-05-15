@@ -1,6 +1,10 @@
 .categories {
   margin-top: 98px;
 }
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,9 @@
   }
   .categories {
     margin-top: 88px;
+  }
+  .categories .section-title {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
