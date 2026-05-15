@@ -14,15 +14,20 @@
   height: 220px;
   border-radius: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .categories-card img {
   margin: 41px auto 24px;
 }
+.categories-card.transfer img {
+  margin: 41px auto 50px;
+}
 
 .categories h4 {
   font-size: 28px;
   margin: 0px;
+  color: var(--text-primary-color);
 }
 
 @media screen and (min-width: 768px) {
