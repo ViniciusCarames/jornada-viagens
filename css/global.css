@@ -50,6 +50,11 @@ body {
   margin: 0 auto 88px;
 }
 
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section.hero {
   width: 100%;
 }
@@ -88,6 +93,9 @@ body {
   }
   .section-title h2 {
     font-size: 32px;
+  }
+  .section-title {
+    width: 100%;
   }
 }
 

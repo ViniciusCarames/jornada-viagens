@@ -74,4 +74,7 @@
   .destinations {
     width: 1200px;
   }
+  .destinations-itens {
+    flex-direction: row;
+  }
 }
