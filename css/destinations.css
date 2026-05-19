@@ -1,7 +1,7 @@
 /* Mobile First */
 .destinations {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 90px;
 }
 .destinations .item header {
   display: block;

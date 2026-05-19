@@ -1,0 +1,57 @@
+.payments {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+.payments .image-gallery .image.first {
+  background: url(../img/bags.png) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image.second {
+  background: url(../img/passport.png) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image.thirdy {
+  background: url(../img/peoples.png) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
+  .payments .image-gallery .image.first {
+    background: url(../img/bag-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .image-gallery .image.second {
+    background: url(../img/passport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .image-gallery .image.thirdy {
+    background: url(../img/peoples-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .payments {
+    width: 1200px;
+  }
+}
