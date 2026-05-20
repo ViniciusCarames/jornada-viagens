@@ -1,7 +1,7 @@
 /* Mobile First */
 .destinations {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 90px;
 }
 .destinations .item header {
   display: block;
@@ -34,8 +34,6 @@
 
 .item p {
   margin-bottom: 24px;
-  font-size: 20px;
-  font-weight: var(--text-weight);
 }
 
 .destinations .button {

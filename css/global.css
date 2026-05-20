@@ -55,6 +55,16 @@ body {
   margin: 0 auto 32px;
 }
 
+.content-title {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .section.hero {
   width: 100%;
 }
